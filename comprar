@@ -1,0 +1,18 @@
+arroz = float(input("Qual o valor do arroz?"))
+feijao = float(input("Qual o valor do feijão?"))
+carne = float(input("Qual o valor da carne?"))
+
+comprar = False 
+
+if arroz < 20.00:
+    print("comprar arroz")
+    comprar = True
+if feijao < 15.00:
+    print("comprar feijao")
+    comprar = True
+if carne < 40.00:
+    print("comprar carne")
+    comprar = True
+
+if not comprar:
+    print("não comprar")
